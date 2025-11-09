@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Restoran - AJAX ilə</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">🍽️ Restoran</div>
+      <button id="menu-toggle" class="menu-toggle" aria-label="Menyu">☰</button>
+      <ul id="nav-links" class="nav-links">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#menu" class="nav-link">Menu</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="section home">
+      <h1>Xoş gəlmisiniz!</h1>
+      <p>Ən dadlı yeməklər və real məlumatlarla dinamik menyu.</p>
+    </section>
+
+    <section id="about" class="section about">
+      <h2>Haqqımızda</h2>
+      <p>Biz təzə xammal, dürüst hazırlanma və yüksək xidmət göstəririk.</p>
+    </section>
+
+    <section id="menu" class="section menu">
+      <h2>Menu</h2>
+      <div class="categories" id="categories"></div>
+      <div id="menu-items" class="menu-items"></div>
+      <div id="loading" class="loading">Məlumat yüklənir...</div>
+      <div id="error" class="error" hidden>Məlumat yüklənərkən səhv baş verdi. Lokal məlumat istifadə olunur.</div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2>Əlaqə</h2>
+      <p>Email: info@restoran.az | Tel: +994 50 123 45 67</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Restoran Layihəsi</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

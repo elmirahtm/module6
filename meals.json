@@ -1,0 +1,18 @@
+{
+  "soup": [
+    { "name": "Tomato Soup", "desc": "Dadlı və ədviyyəli pomidor şorbası.", "price": "6 AZN" },
+    { "name": "Chicken Soup", "desc": "Təbii toyuq bulyonlu şorba.", "price": "7 AZN" }
+  ],
+  "pizza": [
+    { "name": "Margherita", "desc": "Mozzarella, pomidor sousu və reyhan.", "price": "10 AZN" },
+    { "name": "Pepperoni", "desc": "Pepperoni, sous və pendir.", "price": "12 AZN" }
+  ],
+  "dessert": [
+    { "name": "Chocolate Cake", "desc": "Kremli tünd şokoladlı tort.", "price": "8 AZN" },
+    { "name": "Cheesecake", "desc": "Yumşaq vanilli cheesecake.", "price": "9 AZN" }
+  ],
+  "drink": [
+    { "name": "Lemonade", "desc": "Təbii limon suyu ilə sərinləşdirici.", "price": "4 AZN" },
+    { "name": "Coffee", "desc": "Espresso əsaslı təzə qəhvə.", "price": "5 AZN" }
+  ]
+}
